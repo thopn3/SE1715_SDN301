@@ -11,6 +11,7 @@ const app = express();
 // Kích hoạt middleware cho phép Express server làm việc với dữ liệu JSON
 app.use(json());
 
+// http(s)://localhost:9999/
 app.get('/', (req, res) => {
     res.send("Welcome to Home page!");
 });
